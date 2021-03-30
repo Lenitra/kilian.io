@@ -33,7 +33,7 @@ section.travail h2 {
 }
 
 
-section.question {
+section.question1 {
 	width: 80%;
 	margin-top: 3%;
 	margin-bottom: 2%;
@@ -43,14 +43,31 @@ section.question {
 	border: solid black 2px;
 }
 
-section.question h2 {
-	background-color: #e0e0e0;
+section.question2 {
+	width: 80%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	padding: 15px;
+	text-align: center;
+	border: solid black 2px;
 }
 
-section.question div.cache {
+
+
+section.question2 div.cache2 {
 	display: none;
 }
-section.question:hover div.cache {
+
+section.question1 div.cache1 {
+	display: none;
+}
+section.question2:hover div.cache2 {
+	display: block;
+	text-align: center;
+	font-size: 90%;
+}
+section.question1:hover div.cache1 {
 	display: block;
 	text-align: center;
 	font-size: 90%;

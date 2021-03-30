@@ -30,19 +30,54 @@
 		<main>
 			<h1>Mes questions</h1>
 
-			<section class="question">
+			<section class="question1">
 				<h3>Comment la matière informe t’elle la forme ?</h3>
 				<h4>De quelle manière choisis t-on la matière ?</h4>
-				<div class="cache">
+				<div class="cache1">
 					<p>Étudier les différentes possibilités pour que le matériau soit le plus adapté aux différentes fonctions, aspects, usages, mises en œuvres, coût (etc.) du projet</p>
 					<p>Expérimentation de différentes matières afin de trouvé le matériaux le plus adapté au projet</p>
 					<h4>Projets</h4>
 					<hr>
 					<a href="#">Projet réutilisation Barrique</a>
 					<p>Étude des possibilités de découpe du bois et de la réutilisation d’une barrique</p>
-					<img src="images/refs/1.png" alt="">
+					<img src="images/q/1.jpg" alt="">
+					<p>Dans ce projet j’ai découvert le travail du bois et j’ai réfléchi à quel matériaux utiliser pour supporter un être humain (un bois plus massif) et une autre sorte dans l’ouverture, moins épais car il supporte moins de poids (du contre plaqué)</p>
+					<hr>
+					<a href="#">Projet Papier Viviaux</a>
+					<p>Dans ce projet j’ai étudié différents papiers pour définir leurs caractéristiques.</p>
+					<img src="images/q/2.jpg" alt="">
+					<p>Sur ceux projet il me fallait du papier pas trop épais mais solide pour que la boite soit solide et que les supports puissent maintenir la nourriture (donc j’ai utilisé des feuilles de 300mg/ au mètre carré )</p>
+					<hr>
+					<a href="#"><strong>La métamorphose des Oripeaux</strong></a>
+					<p>Durant ce projet j’ai étudié différents tissus</p>
+					<img src="images/q/3.jpg" alt="">
+					<hr>
+					<h4>Mes Références</h4>
+					<hr>
+					<p>pas encore choisis</p>
 				</div>
+			</section>
 
+			<section class="question2">
+				<h3>Pourquoi fait-on des signes virtuelle des objets réel ?</h3>
+				<h4>Pourquoi amène t’on la fiction à la réalité ?</h4>
+				<div class="cache2">
+					<hr>
+					<p><strong>La prolifération du signe</strong></p>
+					<p>Dans ce projet j’ai représenté des signes dit virtuels en présentant leurs proliférations.</p>
+					<img src="images/q/4.jpg" alt="">
+					<hr>
+					<p><strong>La Gloriette</strong></p>
+					<p></p>
+					<hr>
+					<h4>Références</h4>
+					<ul>
+						<li>igor chak</li>
+						<li>Ron arad</li>
+						<li>les vases 44</li>
+						<li>dessins virtuelle</li>
+					</ul>
+				</div>
 			</section>
 
 
@@ -62,6 +97,20 @@
 			</div>
 		</footer>
 
+			<script type="text/javascript">
+
+				function one(event) {
+					document.querySelector(".cache1").setAttribute("display", "block")
+				}
+
+				function two(event) {
+					document.querySelector(".cache2").setAttribute("display", "block")
+				}
+
+				document.querySelector(".question1").addEventListener('click', one);
+				document.querySelector(".question2").addEventListener('click', two);
+
+			</script>
 
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
