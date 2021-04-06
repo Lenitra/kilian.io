@@ -32,6 +32,10 @@ section.travail h2 {
 	background-color: #e0e0e0;
 }
 
+.travail p {
+	margin: 20px;
+}
+
 
 section.question1 {
 	width: 80%;
