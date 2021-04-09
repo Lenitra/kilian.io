@@ -4,8 +4,18 @@
 
 
 
+#img4tagrossemere {
+	width: 15%;
+	height: auto;
+	/* margin-left: 35%; */
+	/* margin-right: 35%; */
+}
+
 
 .grilleref {
+	margin-left: 50%;
+	margin-right: 50%;
+
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 2%;
 	margin-bottom: 2%;
